@@ -1,0 +1,24 @@
+.services .container {
+  width: 60%;
+  margin-top: 15vw;
+  margin-left: 10vw;
+}
+
+.line {
+  background: #000;
+  width: 15px;
+  height: 2px;
+}
+
+.services-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.services p {
+  font-family: 'ClashDisplay-Variable';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 160%;
+}
