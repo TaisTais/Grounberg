@@ -1,0 +1,76 @@
+.navbar {
+  margin-top: 50px;
+}
+
+.navbar .container{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'ClashDisplay-Variable';
+  font-weight: 400;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 10px;
+  font-size: 2vw;
+}
+
+.hamburger-box {
+  position: relative;
+  width: 55px;
+  height: 23px;
+  margin: 10px;
+}
+
+.hamburger-inner {
+  position: absolute;
+  content: '';
+  display:  block;
+  height: 2px;
+  background: #000;
+  transition: ease-in-out;
+  right: 0;
+}
+
+.hamburger-inner:nth-of-type(1) {
+  width: 100%;
+}
+
+.hamburger-inner:nth-of-type(2) {
+  top: calc(50% - 1px);
+  width: 60%;
+  opacity: 1;
+}
+
+.hamburger-inner:nth-of-type(3) {
+  bottom:0;
+  width: 80%;
+}
+
+/* .hamburger-box:hover .hamburger-inner:nth-of-type(2) {
+  width: 100%;
+  opacity: 0;
+  transition: 0.15s ease-in-out;
+}
+
+.hamburger-box:hover .hamburger-inner:nth-of-type(1) {
+  width: 100%;
+  transform: translate3d(0, px, 0) rotate(45deg);
+  transition: 0.15s ease-in-out;
+}
+
+.hamburger-box:hover .hamburger-inner:nth-of-type(3) {
+  width: 100%;
+  transform: translate3d(0, -14px, 0) rotate(-45deg);
+  transition: 0.15s ease-in-out;
+} */
+
+.hamburger-box:hover .hamburger-inner:nth-of-type(1), 
+.hamburger-box:hover .hamburger-inner:nth-of-type(2),
+.hamburger-box:hover .hamburger-inner:nth-of-type(3) {
+  width: 100%;
+  transition: 0.15s ease-in-out;
+}

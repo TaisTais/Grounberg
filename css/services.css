@@ -1,24 +1,79 @@
 .services .container {
-  width: 60%;
-  margin-top: 15vw;
-  margin-left: 10vw;
-}
-
-.line {
-  background: #000;
-  width: 15px;
-  height: 2px;
+  width: 63%;
+  margin-top: 10vw;
+  margin-left: 23vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .services-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.title-line {
+  background: #000;
+  width: 15px;
+  height: 1px;
+}
+
+.services h2 {
+  font-family: 'ClashDisplay-Variable';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 160%;
+  margin: 0;
+}
+
+.services .text-block {
+  width: 75%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.services .text-block .line {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.services-subtitle {
+  display: flex;
+  width: 40vw;
+  align-items: center;
+  gap: 3vw;
+}
+
+.services h3 {
+  font-family: 'ClashDisplay-Variable';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8vw;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.services h3:nth-of-type(1) {
+  color:#DB574D;
+  width: 60px;
 }
 
 .services p {
   font-family: 'ClashDisplay-Variable';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   line-height: 160%;
+  margin-top: 1.2vw;
+  margin-bottom: 0;
+}
+
+.services .line {
+  background: #1010101A;
+  width: 47vw;
+  height: 2px;
 }
