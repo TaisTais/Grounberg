@@ -1,0 +1,13 @@
+.exibitions .container  {
+  margin-top: 13vw;
+}
+
+.ex-space {
+  height: 5.35vw;
+}
+
+.exibitions-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+}

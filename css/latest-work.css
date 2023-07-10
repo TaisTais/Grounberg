@@ -1,0 +1,136 @@
+.latest-work .container  {
+  margin-top: 13vw;
+}
+
+.title-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.title h2 {
+  margin: 0;
+  font-size: 6vw;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.title h2:nth-of-type(2) {
+  text-transform: none;
+  color: #DB574D;
+}
+
+.view-all-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.view-all-button img  {
+  width: 30.5px;
+  height: 14px;
+}
+
+.view-all-button p {
+  margin: 0;
+  font-size: 1.1vw;
+}
+
+.lw-space {
+  height: 7.6vw;
+}
+
+.picture-block-2 {
+  position: absolute;
+  top: 131.5vw;
+  right: 10%;
+}
+
+.picture-1 {
+  width: 41.6vw;
+  height: 51vw;
+  margin-bottom: 12px;
+}
+
+.picture-2, .picture-3, .picture-4 {
+  width: 23.3vw;
+  height: 30vw;
+  margin-bottom: 12px;
+}
+
+.picture-block img {
+  object-fit: cover;
+}
+
+.picture-block img:first-of-type img {
+  position: relative;
+  top: 40px;
+}
+
+.picture-block p {
+  line-height: 160%;
+  margin: 0;
+}
+
+.name {
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.name p {
+  margin-bottom: 12px;
+  line-height: 120%;
+}
+
+.picture-block:nth-of-type(2) .name p {
+  margin-top: 1.8vw;
+}
+
+.name p:nth-of-type(2) {
+  text-transform: none;
+  color: #DB574D;
+}
+
+.name-special p {
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 120%;
+}
+
+.second-strow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.second-strow p {
+  margin-bottom: 12px;
+}
+
+.second-strow-red p {
+  text-transform: none;
+  color: #DB574D;
+  font-size: 1.8vw;
+}
+
+.picture-block-3 {
+  position: relative;
+  margin: 7.6vw 0 0 9vw;
+}
+
+.picture-block-4 {
+  position: absolute;
+  top: 179vw;
+  left: 61vw;
+}

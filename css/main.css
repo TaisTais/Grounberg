@@ -1,5 +1,12 @@
 html, body{
-  background-color: #fff
+  background-color: #fff;
+}
+
+h1, h2, h3, p {
+  color: #101010;
+  font-family: 'ClashDisplay-Variable';
+  font-style: normal;
+  font-weight: 400;
 }
 
 .container {
@@ -8,6 +15,7 @@ html, body{
 }
 
 .hero .container {
+  margin-top: 8vw;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -21,19 +29,14 @@ html, body{
 }
 
 .hero-maintitle {
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12vw;
   line-height: 90%;
   margin-bottom: 0;
+  margin-top: 0.4em;
   color: #DB574D;
 }
 
 .hero-subtitle {
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
   font-size: 3vw;
   margin-bottom: 0;
   margin-top: 0.8vw;
@@ -53,7 +56,7 @@ html, body{
   position: absolute;
   right: 0;
   width: 50%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .hero-img img {
@@ -61,13 +64,29 @@ html, body{
   width: 100%;
 }
 
+.scroll-block {
+  position: absolute;
+  right: 4vw;
+  top: 43.8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1vw;
+}
+
+.scroll-block p {
+  width: 6vw;
+  font-size: 1vw;
+}
+
 .hero-button {
-  width: 40%;
+  width: 23%;
   position: relative;
 }
 
 .hero-button-img {
-  width: 35%;
+  width: 56%;
+  margin-top: 3.7vw;
 }
 
 .hero-button-img img {
@@ -77,23 +96,17 @@ html, body{
 
 .hero-button-img p{
   margin-top: 6px;
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.2vw;
-}
-
-.circle {
-  position: absolute;
-  left: 30%;
-  bottom: 0;
+  font-size: 1vw;
 }
 
 .circle .main {
+  position: absolute;
+  left: 45%;
+  top: 35%;
   background:#DB574D;
   padding: 20px;
-  width: 120px;
-  height: 120px;
+  width: 6vw;
+  height: 6vw;
   border-radius: 50%;
   text-align: center;
   display: flex;
@@ -105,33 +118,21 @@ html, body{
 
 .circle .main p {
   margin: 0;
+  width: 6vw;
   color: #fff;
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.1vw;
   text-transform: uppercase;
   z-index: 100;
 }
 
-.circle .main::after {
-  position: absolute;
-  background: transparent;
-  padding: 20px;
-  width: 140px;
-  height: 140px;
+.circle .second {
+  width: 9vw;
+  height: 9vw;
   border-radius: 50%;
   border: solid 2px #DB574D;
-  bottom: -10px;
-  left: 10px;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
-}
-
-.circle:hover .main::after {
-  left: -12.5px;
-  background:#DB574D;
-
+  position: absolute;
+  left: 50%;
+  top: 33%;
 }
 
 @media (max-width: 1024px) {

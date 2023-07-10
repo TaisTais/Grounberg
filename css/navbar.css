@@ -1,5 +1,20 @@
 .navbar {
-  margin-top: 50px;
+  position: fixed;
+  padding-top: 0.4vw;
+  padding-bottom: 0.2vw;
+  top: 1vw;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  transition: all, 0.3s;
+  background: #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar .container{
@@ -10,8 +25,6 @@
 }
 
 .logo {
-  font-family: 'ClashDisplay-Variable';
-  font-weight: 400;
   text-transform: uppercase;
   width: fit-content;
   margin: 10px;

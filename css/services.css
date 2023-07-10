@@ -21,9 +21,6 @@
 }
 
 .services h2 {
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
   font-size: 1vw;
   line-height: 160%;
   margin: 0;
@@ -48,9 +45,6 @@
 }
 
 .services h3 {
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.8vw;
   line-height: 120%;
   text-transform: uppercase;
@@ -63,9 +57,6 @@
 }
 
 .services p {
-  font-family: 'ClashDisplay-Variable';
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.1vw;
   line-height: 160%;
   margin-top: 1.2vw;
