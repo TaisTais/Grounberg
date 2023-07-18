@@ -1,0 +1,120 @@
+.hero .container {
+  margin-top: 8vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.hero-title {
+  width: fit-content;
+  height: fit-content;
+  z-index: 100;
+}
+
+.hero-maintitle {
+  font-size: 12vw;
+  line-height: 90%;
+  margin-bottom: 0;
+  margin-top: 0.4em;
+  color: #DB574D;
+}
+
+.hero-subtitle {
+  font-size: 3vw;
+  margin-bottom: 0;
+  margin-top: 0.8vw;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-subtitle:first-of-type {
+  padding-right: 8%;
+}
+
+.hero-subtitle:last-of-type {
+  padding-left: 8%;
+}
+
+.hero-img {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.hero-img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.scroll-block {
+  position: absolute;
+  right: 4vw;
+  top: 43.8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1vw;
+}
+
+.scroll-block p {
+  width: 6vw;
+  font-size: 1vw;
+}
+
+.hero-button {
+  width: 23%;
+  position: relative;
+}
+
+.hero-button-img {
+  width: 56%;
+  margin-top: 3.7vw;
+}
+
+.hero-button-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-button-img p{
+  margin-top: 6px;
+  font-size: 1vw;
+}
+
+.circle .main {
+  position: absolute;
+  left: 45%;
+  top: 35%;
+  bottom: -20px;
+  background:#DB574D;
+  padding: 20px;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.circle .main p {
+  margin: 0;
+  width: 6vw;
+  color: #fff;
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+.circle .second {
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  border: solid 2px #DB574D;
+  position: absolute;
+  left: 50%;
+  top: 33%;
+}

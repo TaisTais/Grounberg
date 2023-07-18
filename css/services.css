@@ -32,11 +32,6 @@
   flex-direction: column;
 }
 
-.services .text-block .line {
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-}
-
 .services-subtitle {
   display: flex;
   width: 40vw;
@@ -61,10 +56,4 @@
   line-height: 160%;
   margin-top: 1.2vw;
   margin-bottom: 0;
-}
-
-.services .line {
-  background: #1010101A;
-  width: 47vw;
-  height: 2px;
 }
